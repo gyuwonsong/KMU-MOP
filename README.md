@@ -229,6 +229,7 @@ public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup c
     
 #### 3-3-3. SigninActivity.java
 로그인 버튼을 누르면 존재하지 않는 아이디인지, 비밀번호를 틀렸는지에 대해 검사해 준다. 그리고 홈화면으로 돌아온다.
+            
 '''
 @Override
             public void onClick(View view) {
